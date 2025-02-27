@@ -22,7 +22,7 @@ In Training and Validation data, we provide the original sentences along with th
 
 In our biased data we provide the format like:
 
-```json
+```
 {
     'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
     'bias_labels': [0, 1, 0],
@@ -38,7 +38,7 @@ where, 'ori_sentence' denotes the original sentence with gender bias, 'bias_labe
 
 The format for non-biased data is much simpler, only containing the non-biased text:
 
-```json
+```
 {
     'text': '然而凭着顽强的毅力,她努力学习按摩技术,通过自学取得了大专文凭,成为嘉兴唯一一名盲人中医师。'
 }
@@ -50,7 +50,7 @@ The format for non-biased data is much simpler, only containing the non-biased t
 
 In the test data, biased data is only provided with the original sentence:
 
-```json
+```
  {
      'ori_sentence': '她讲起话来，总是尖声尖气，扭扭捏捏。'
  }
@@ -66,7 +66,7 @@ For submission, the following materials should be packaged as one `zip` file, th
 
 For the Bias Detection Task, you should give us a json file containing the gender bias judgement (**True**/**False**) along with the original sentence:
 
-```json
+```
 {
     'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
     'is_biased': True
@@ -77,7 +77,7 @@ For the Bias Detection Task, you should give us a json file containing the gende
 
 For the Bias Classification Task, you should provide a json file containing the gender bias labels (denoted by 0 and 1) along with the original sentence:
 
-```json
+```
 {
     'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
     'bias_labels': [0, 1, 0]
@@ -88,7 +88,7 @@ For the Bias Classification Task, you should provide a json file containing the 
 
 For the Bias Mitigation Task, the answer should include the edited version to eliminate gender bias along with the original sentence:
 
-```json
+```
 {
     'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
     'edit_sentence': '这思想开始火焰似的燃烧起来了，主角再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。'
