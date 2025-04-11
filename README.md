@@ -1,4 +1,4 @@
-# NLPCC-2025-Shared-Task-CORGI
+# NLPCC-2025-Shared-Task-7
 
 Chinese Gender Bias Probing and Mitigation Task
 
@@ -56,8 +56,6 @@ In the test data, biased data is only provided with the original sentence:
  }
 ```
 
-
-
 ## Submission
 
 For submission, the following materials should be packaged as one `zip` file, the final result must be a json file named with format `yourteamid_task{1/2/3}.json` and sent to [hanhua.hong@postgrad.manchester.ac.uk](mailto:hanhua.hong@postgrad.manchester.ac.uk):
@@ -98,7 +96,6 @@ For the Bias Mitigation Task, the answer should include the edited version to el
 ## Evaluation
 
 The top 3 participating teams in each task and track will be certificated by NLPCC and CCF-NLP.
-
 
 ## Contact & Citation
 
