@@ -58,7 +58,7 @@ In the test data, biased data is only provided with the original sentence:
 
 ## Submission
 
-For submission, the following materials should be packaged as one `zip` file, the final result must be a json file named with format `yourteamid_task{1/2/3}.json` and sent to [hanhua.hong@postgrad.manchester.ac.uk](mailto:hanhua.hong@postgrad.manchester.ac.uk):
+For submission, the following materials should be packaged as one `zip` file, the final result must be a json file named with format `yourteamid_task{1/2/3}.json` and sent to [yizhi.li@hotmail.com](mailto:yizhi.li@hotmail.com) / [hanhua.hong@postgrad.manchester.ac.uk](mailto:hanhua.hong@postgrad.manchester.ac.uk):
 
 ### Subtask 1
 
@@ -113,4 +113,4 @@ If your publication employs our dataset, please cite the following article:
 }
 ```
 
-If you have any questions about this task, please email to [hanhua.hong@postgrad.manchester.ac.uk](mailto:hanhua.hong@postgrad.manchester.ac.uk)
+If you have any questions about this task, please email to [yizhi.li@hotmail.com](mailto:yizhi.li@hotmail.com) / [hanhua.hong@postgrad.manchester.ac.uk](mailto:hanhua.hong@postgrad.manchester.ac.uk)
