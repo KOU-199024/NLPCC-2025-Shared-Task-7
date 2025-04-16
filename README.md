@@ -60,15 +60,13 @@ In the test set for detection task, only the original sentences from the biased 
 
 #### Subtask 2/3 (Classfication and Mitigation)
 
-In the test set for classification and mitigation, the data file only contains the original sentence from biased data. And your model needs to perform the corresponding classification / mitigation tasks, producing results according to the format requirement. Please refer to the **Submission** section.
+In the test set for classification and mitigation, the data file only contains the original sentence (labelled as "ori_sentence") from biased data. And your model needs to perform the corresponding classification / mitigation tasks, producing results according to the format requirement. Please refer to the **Submission** section.
 
 ```
 {
     'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。'
 }
 ```
-
-
 
 ## Submission
 
