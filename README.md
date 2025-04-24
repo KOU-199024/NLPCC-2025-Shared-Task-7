@@ -79,7 +79,7 @@ For the Bias Detection Task, you should give us a json file containing the gende
 ```
 {
     'text': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
-    'is_biased': True
+    'is_biased': true
 }
 ```
 
