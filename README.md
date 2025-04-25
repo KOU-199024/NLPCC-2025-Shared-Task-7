@@ -40,7 +40,7 @@ The format for non-biased data is much simpler, only containing the non-biased t
 
 ```
 {
-    'text': '然而凭着顽强的毅力,她努力学习按摩技术,通过自学取得了大专文凭,成为嘉兴唯一一名盲人中医师。'
+    "text": "然而凭着顽强的毅力,她努力学习按摩技术,通过自学取得了大专文凭,成为嘉兴唯一一名盲人中医师。"
 }
 ```
 
@@ -54,7 +54,7 @@ In the test set for detection task, only the original sentences from the biased 
 
 ```
  {
-     'text': '她讲起话来，总是尖声尖气，扭扭捏捏。'
+     "text": "她讲起话来，总是尖声尖气，扭扭捏捏。"
  }
 ```
 
@@ -64,7 +64,7 @@ In the test set for classification and mitigation, the data file only contains t
 
 ```
 {
-    'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。'
+    "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。"
 }
 ```
 
@@ -78,8 +78,8 @@ For the Bias Detection Task, you should give us a json file containing the gende
 
 ```
 {
-    'text': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
-    'is_biased': true
+    "text": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
+    "is_biased": true
 }
 ```
 
@@ -89,8 +89,8 @@ For the Bias Classification Task, you should provide a json file containing the 
 
 ```
 {
-    'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
-    'bias_labels': [0, 1, 0]
+    "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
+    "bias_labels": [0, 1, 0]
 }
 ```
 
@@ -100,8 +100,8 @@ For the Bias Mitigation Task, the answer should include the edited version to el
 
 ```
 {
-    'ori_sentence': '这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。',
-    'edit_sentence': '这思想开始火焰似的燃烧起来了，主角再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。'
+    "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
+    "edit_sentence": "这思想开始火焰似的燃烧起来了，主角再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。"
 }
 ```
 
