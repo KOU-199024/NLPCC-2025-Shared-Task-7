@@ -74,35 +74,44 @@ For submission, the following materials should be packaged as one `zip` file, th
 
 ### Subtask 1
 
-For the Bias Detection Task, you should give us a json file containing the gender bias judgement (**True**/**False**) along with the original sentence:
+For the Bias Detection Task, you should give us a single json file containing the gender bias judgement (**True**/**False**) along with the original sentences:
 
 ```
-{
-    "text": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
-    "is_biased": true
-}
+[
+    {
+        "text": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
+        "is_biased": true
+    },
+    ...
+]
 ```
 
 ### Subtask 2
 
-For the Bias Classification Task, you should provide a json file containing the gender bias labels (denoted by 0 and 1) along with the original sentence:
+For the Bias Classification Task, you should provide a single json file containing the gender bias labels (denoted by 0 and 1) along with the original sentences:
 
 ```
-{
-    "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
-    "bias_labels": [0, 1, 0]
-}
+[
+    {
+        "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
+        "bias_labels": [0, 1, 0]
+    },
+    ...
+]
 ```
 
 ### Subtask 3
 
-For the Bias Mitigation Task, the answer should include the edited version to eliminate gender bias along with the original sentence:
+For the Bias Mitigation Task, the answer should include the edited version to eliminate gender bias along with the original sentences:
 
 ```
-{
-    "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
-    "edit_sentence": "这思想开始火焰似的燃烧起来了，主角再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。"
-}
+[
+    {
+        "ori_sentence": "这思想开始火焰似的把她燃烧起来了，她再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。",
+        "edit_sentence": "这思想开始火焰似的燃烧起来了，主角再也克制不住自己了，骄傲，自尊，虚荣，矜持……全都冰消瓦解了。"
+    },
+    ...
+]
 ```
 
 ## Evaluation
