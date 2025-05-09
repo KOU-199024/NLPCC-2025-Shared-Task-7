@@ -135,3 +135,61 @@ If your publication employs our dataset, please cite the following article:
 ```
 
 If you have any questions about this task, please email to [yizhi.li@hotmail.com](mailto:yizhi.li@hotmail.com) or [hanhua.hong@postgrad.manchester.ac.uk](mailto:hanhua.hong@postgrad.manchester.ac.uk).
+
+# Ranking
+
+## Subtask 1: Detection Task
+
+| Ranking | Team Name     | Precision | Recall | F1    |
+| ------- | ------------- | --------- | ------ | ----- |
+| 1       | ZZU-nlp       | 0.798     | 0.910  | 0.850 |
+| 2       | ZZU-NLP_DS    | 0.604     | 0.960  | 0.741 |
+| 3       | Cloud Lab     | 0.566     | 0.990  | 0.720 |
+| 4       | YNU-HPCC      | 0.645     | 0.800  | 0.714 |
+| 5       | Prompt        | 0.552     | 1.000  | 0.712 |
+| 6       | IR901         | 0.557     | 0.980  | 0.710 |
+| 7       | xlarge        | 0.536     | 0.960  | 0.688 |
+| 8       | Hu            | 0.522     | 0.970  | 0.678 |
+| 9       | wangkongqiang | 0.565     | 0.830  | 0.672 |
+| 10      | Team0071      | 0.496     | 0.640  | 0.559 |
+
+## Subtask 2: Classification Task
+
+| Ranking | Team Name     | Precision | Recall | F1    |
+| ------- | ------------- | --------- | ------ | ----- |
+| 1       | ZZU-nlp       | 0.543     | 0.576  | 0.646 |
+| 2       | Team0071      | 0.511     | 0.591  | 0.548 |
+| 3       | Hu            | 0.447     | 0.658  | 0.531 |
+| 4       | YNU-HPCC      | 0.463     | 0.565  | 0.509 |
+| 5       | Prompt        | 0.496     | 0.513  | 0.505 |
+| 6       | Tsingyi       | 0.479     | 0.468  | 0.474 |
+| 7       | Cloud Lab     | 0.510     | 0.409  | 0.453 |
+| 8       | IR901         | 0.443     | 0.420  | 0.431 |
+| 9       | ZZUNLP_DS     | 0.466     | 0.361  | 0.407 |
+| 10      | wangkongqiang | 0.484     | 0.283  | 0.357 |
+
+## Subtask 3: Mitigation Task
+
+| Ranking | Team Name | BLEU  | METEOR | ROUGE-L_P | ROUGE-L_R | ROUGE-L_F1 | Average |
+| ------- | --------- | ----- | ------ | --------- | --------- | ---------- | ------- |
+| 1       | ZZU-nlp   | 0.013 | 0.417  | 0.464     | 0.452     | 0.452      | 0.294   |
+| 2       | Team0071  | 0.013 | 0.419  | 0.466     | 0.450     | 0.448      | 0.293   |
+| 3       | YNU-HPCC  | 0.013 | 0.414  | 0.472     | 0.448     | 0.453      | 0.293   |
+| 4       | Prompt    | 0.011 | 0.418  | 0.430     | 0.462     | 0.434      | 0.288   |
+| 5       | IR901     | 0.010 | 0.399  | 0.385     | 0.454     | 0.403      | 0.271   |
+| 6       | ZZUNLP_DS | 0.010 | 0.393  | 0.372     | 0.458     | 0.397      | 0.267   |
+| 7       | Cloud Lab | 0.009 | 0.391  | 0.367     | 0.461     | 0.394      | 0.265   |
+| 8       | Hu        | 0.005 | 0.106  | 0.158     | 0.237     | 0.187      | 0.099   |
+
+## Overall Result
+
+| Ranking | Team Name | Subtask1 | Subtask2 | Subtask3 | Average |
+| ------- | --------- | -------- | -------- | -------- | ------- |
+| 1       | ZZU-nlp   | 0.850    | 0.646    | 0.294    | 0.597   |
+| 2       | YNU-HPCC  | 0.714    | 0.509    | 0.293    | 0.505   |
+| 3       | Prompt    | 0.712    | 0.505    | 0.288    | 0.502   |
+| 4       | Cloud Lab | 0.720    | 0.453    | 0.265    | 0.479   |
+| 5       | ZZUNLP_DS | 0.741    | 0.407    | 0.267    | 0.472   |
+| 6       | IR901     | 0.710    | 0.431    | 0.271    | 0.471   |
+| 7       | Team0071  | 0.559    | 0.548    | 0.293    | 0.467   |
+| 8       | Hu        | 0.678    | 0.531    | 0.099    | 0.436   |
